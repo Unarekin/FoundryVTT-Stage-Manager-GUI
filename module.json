@@ -1,0 +1,54 @@
+{
+  "id": "stage-manager-gui",
+  "title": "Stage Manager - GUI",
+  "description": "An extension module for Stage manager that adds functionality more oriented around building a custom GUI or HUD for your game.",
+  "version": "#{VERSION}#",
+  "library": false,
+  "compatibility": {
+    "minimum": 12,
+    "verified": 12,
+    "maximum": 13
+  },
+  "authors": [
+    {
+      "name": "Unarekin",
+      "url": "https://github.com/Unarekin",
+      "discord": "unarekin"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "color-picker",
+        "type": "module",
+        "manifest": "https://github.com/Larkinabout/fvtt-color-picker/releases/latest/download/module.json",
+        "compatibility": {
+          "verified": "1.3"
+        }
+      },
+      {
+        "id": "stage-manager",
+        "type": "module",
+        "manifest": "https://github.com/Unarekin/FoundryVTT-Stage-Manager/releases/latest/download/module.json",
+        "compatibility": {
+          "verified": "1.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": ["module.js"],
+  "styles": ["styles/module.css"],
+  "scripts": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md"
+}
